@@ -27,7 +27,7 @@ week3-project/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/week3-project.git
+git clone git@github.com:thubamamba/Data-Analysis-Assignment.git
 cd week3-project
 ```
 

@@ -121,7 +121,7 @@ rmdir /s venv  # Windows
 pip install --upgrade pip
 
 # Then install packages
-pip install pandas numpy matplotlib seaborn scikit-learn scipy openpyxl
+pip install -r requirements.txt
 ```
 
 **File Not Found:**

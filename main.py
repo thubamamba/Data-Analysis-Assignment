@@ -45,21 +45,6 @@ try:
 except Exception as e:
     print(f"Error loading Excel file: {e}")
     print("Please ensure 'raw_sales_data.xlsx' is in the same directory")
-    # Create sample data as fallback for demonstration
-    print("Using sample data for demonstration...")
-    df = pd.DataFrame({
-        'Customer_ID': range(101, 117),
-        'Customer_Name': ['John Doe', 'Jane Smith', 'Sam Brown', 'Linda Johnson', 'Michael Lee',
-                         'Emily Davis', 'David Wilson', 'Susan White', 'Chris Martin', 'Anna Taylor',
-                         'James Anderson', 'Patricia Thomas', 'Robert Jackson', 'Mary Harris',
-                         'Daniel Clark', 'Barbara Lewis'],
-        'Region': ['North', 'South', 'East', 'West'] * 4,
-        'Total_Spend': [5000, 3000, 4500, 2500, 7000, 3200, 5300, 2900, 6000, 3100, 4700, 2600, 5500, 3300, 4900, 2700],
-        'Purchase_Frequency': [12, 8, 10, 5, 15, 7, 14, 6, 13, 8, 11, 5, 12, 9, 11, 6],
-        'Marketing_Spend': [2000, 1500, 1800, 1000, 2500, 1400, 2300, 1100, 2200, 1350, 1900, 1050, 2100, 1450, 2000, 1150],
-        'Seasonality_Index': [1.2, 1.0, 1.1, 0.9, 1.3, 1.0, 1.2, 0.8, 1.2, 0.9, 1.1, 0.8, 1.2, 1.0, 1.1, 0.9],
-        'Churned': ['No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes', 'No', 'Yes']
-    })
 
 # Display initial data exploration
 print("\n=== INITIAL DATA EXPLORATION ===")
